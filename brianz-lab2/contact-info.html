@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Brian Zhou">
+        <meta name="keywords" content="Carnegie Mellon University, Information Systems">
+        <meta name="description" content="Brian Zhou professional website">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+
+        <title>Website of Brian Zhou</title>
+    </head>
+    <body>
+        <div id="container">
+            <div id="top_row">
+                <header>
+                    <h1>Brian Zhou</h1>
+                    <p>Carnegie Mellon University, BXA program, Dietrich & CFA</p>
+                </header>
+
+                <nav>
+                    <a href="index.html">My Info</a> |
+                    <a href="experience.html">My Experience</a> |
+                    <a href="contact-info.html">Contact Me</a>
+                </nav>
+            </div> <!-- close top row -->
+
+            <div id="content">
+                <h2>Contact Me</h2>
+                <p>Please use the below form to get in touch with me!</p>
+            </div> <!-- close content-->
+            
+            <form>
+                <fieldset>
+                    <legend>Tell me about yourself</legend>
+                    <label for="name"><strong>Name</strong></label><br>
+                    <input type="text" id="name" name="name" maxlength="250"><br><br>
+                    
+                    <label for="birthdate"><strong>Date of Birth (required)</strong></label><br>
+                    <input type="date" id="birthdate" name="birthdate"><br><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Tell me about your preferences</legend>
+                    <label for="flowercolor"><strong>Your favorite flower color:</strong></label><br>
+                    <input type="color" id="flowercolor" name="flowercolor"><br><br>
+
+                    <label for="msg"><strong>Message</strong></label><br>
+                    <textarea id="msg" name="msg" rows="10" cols="50" maxlength="1000"></textarea><br><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Let's stay in touch</legend>
+                    <label for="findout"><strong>How did you find out about me?</strong></label>
+                    <select name="findout" id="findout">
+                        <option value="Google">Google</option>
+                        <option value="News article">News article</option>
+                        <option value="Friend">Friend</option>
+                        <option value="Other">Other</option>
+                    </select><br><br>
+
+                    <label for="emailupdates"><strong>Please indicate if you want to recieve updates via email</strong></label><br>
+                    <input type="checkbox" id="emailupdates" name="emailupdates" value="yes">
+                    <label for="emailupdates">Yes, please update me!</label><br><br>
+
+                    <label for="email"><strong>Please provide your email address:</strong></label><br>
+                    <input type="email" id="email" name="email" placeholder="abc@defg.com"><br><br>
+
+                    <label for="phone"><strong>Please provide your phone number (no dashes):</strong></label><br>
+                    <input type="tel" id="phone" name="phone" placeholder="1234567890"><br><br>
+
+                    <label for="pwd"><strong>Choose a password</strong></label><br>
+                    <input type="password" id="pwd" name="pwd" maxlength="20"><br><br>
+                </fieldset>
+                <fieldset>
+                    <input type="image" src="images/submit.png" alt="Submit" name="btnimage">
+                </fieldset>
+            </form>
+
+            <div id="sidebar">
+                <h3>Contact</h3>
+                <strong>Brian Zhou</strong><br>
+                <a href="http://www.cmu.edu" target="_blank">Carnegie Mellon University</a><br>
+                5000 Forbes Avenue <br>
+                412-268-0000 (h) <br>
+                412-555-5555 (c) <br><br>
+                <a href="mailto:brianz@andrew.cmu.edu"><img src="images/email.png" alt="Mail Icon"></a>
+                <a href="http://www.linkedin.com/in/brian-zhou-cmu"><img src="images/linkedin.png" alt="LinkedIn Icon"></a>
+                <a href="http://www.facebook.com"><img src="images/facebook.png" alt="Facebook Icon"></a>
+                <a href="https://github.com/bzhou1"><img src="images/github.png" alt="GitHub Icon" width="25" height="25"></a>
+            </div> <!-- close sidebar-->
+            <footer>
+                <hr>
+                &copy; Brian Zhou
+            </footer>
+        </div>
+    </body>
+    
+</html>
